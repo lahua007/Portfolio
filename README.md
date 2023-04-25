@@ -1,6 +1,6 @@
 # Lavrans Portfolio
 
-##Beskrivelse: 43
+## Beskrivelse: 43
 Dette er en nettside jeg har laget for å vise frem mine webutviklingsferdigheter. Nettsiden inkluderer et responsivt design og animasjoner.
 
 ##Installasjon:
