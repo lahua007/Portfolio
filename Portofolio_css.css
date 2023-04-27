@@ -1,0 +1,10 @@
+.overskrift {
+    font-family: "Roboto Slab", sans-serif;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
