@@ -1,10 +1,23 @@
 .overskrift {
     font-family: "Roboto Slab", sans-serif;
-    background-color: gray;
+    background-color: #BCBEC0;
     color: black;
     text-align: center;
-    padding: 10px;
-    margin: 0;
+    padding: 40px;
+    padding-bottom: 8px;
+    margin-top: 1rem;
+    margin-bottom: 0px;
     width: 100%;
     box-sizing: border-box;
+}
+
+.Underoverskrift {
+    font-family: "Roboto Light", sans-serif;
+    background-color: #A7A9AC;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
 }
