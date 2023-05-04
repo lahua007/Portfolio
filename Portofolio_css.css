@@ -1,35 +1,98 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    height: 100dvh;
+    height: 100svh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+}
+/* main {
+    display: grid; 
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 2fr 1fr 1fr; 
+    grid-template-areas: 
+      "a b c"
+      "d e f"
+      "g h i"; 
+} */
+main {
+    display: grid; 
+    height: 100%;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: 2fr 1fr 1fr; 
+    grid-template-areas: 
+      "a a b b c c"
+      "d h i j k l"
+      "m n o p q r"; 
+}
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }
+.g { grid-area: g; }
+.h { grid-area: h; }
+.i { grid-area: i; }
+
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
 .overskrift {
-    font-family: "Roboto Slab", sans-serif;
     background-color: #BCBEC0;
-    color: black;
     text-align: center;
     padding: 40px;
     padding-bottom: 8px;
     margin-top: 1rem;
-    margin-bottom: 0px;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .Underoverskrift {
-    font-family: "Roboto Light", sans-serif;
     background-color: #A7A9AC;
-    color: black;
     text-align: center;
     padding: 20px;
     width: 100%;
-    box-sizing: border-box;
-    margin: 0px;
-}
-
-.grid_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "a b"
-                         "c d";
-}
-
-.grida {
-    grid-area: a;
 }
