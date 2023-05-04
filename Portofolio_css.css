@@ -40,8 +40,8 @@ main {
     grid-template-rows: 2fr 1fr 1fr; 
     grid-template-areas: 
       "a a b b c c"
-      "d h i j k l"
-      "m n o p q r"; 
+      "d e f g h i"
+      "j k l m n o"; 
 }
 .a { grid-area: a; }
 .b { grid-area: b; }
@@ -52,6 +52,12 @@ main {
 .g { grid-area: g; }
 .h { grid-area: h; }
 .i { grid-area: i; }
+.j { grid-area: j; }
+.k { grid-area: k; }
+.l { grid-area: l; }
+.m { grid-area: m; }
+.n { grid-area: n; }
+.o { grid-area: o; }
 
 
 p {
