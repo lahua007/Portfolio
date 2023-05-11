@@ -37,7 +37,7 @@ main {
     display: grid; 
     height: 100%;
     grid-template-columns: repeat(6, 1fr); 
-    grid-template-rows: 2fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
     grid-template-areas: 
       "a a b b c c"
       "d e f g h i"
