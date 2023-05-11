@@ -37,11 +37,11 @@ main {
     display: grid; 
     height: 100%;
     grid-template-columns: repeat(6, 1fr); 
-    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-rows: 0.8fr 0.7fr 2.5fr; 
     grid-template-areas: 
       "a a b b c c"
       "d e f g h i"
-      "j k l m n o"; 
+      "k k k m m m"; 
 }
 .a { grid-area: a; }
 .b { grid-area: b; }
@@ -87,6 +87,16 @@ h3 {
     margin-top: 2rem;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bilde2 {
+    margin-top: 2rem;
+}
+
 .overskrift {
     background-color: #BCBEC0;
     text-align: center;
@@ -101,4 +111,10 @@ h3 {
     text-align: center;
     padding: 20px;
     width: 100%;
+}
+
+.skillelinje {
+    background-color: #A7A9AC;
+    padding: 3px;
+    margin-top: 1rem;
 }
