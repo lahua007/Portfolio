@@ -33,7 +33,7 @@ body {
       "d e f"
       "g h i"; 
 } */
-main {
+/* main {
     display: grid; 
     height: 100%;
     grid-template-columns: repeat(6, 1fr); 
@@ -57,7 +57,7 @@ main {
 .l { grid-area: l; }
 .m { grid-area: m; }
 .n { grid-area: n; }
-.o { grid-area: o; }
+.o { grid-area: o; } */
 
 
 p {
@@ -119,4 +119,23 @@ img {
     background-color: #A7A9AC;
     padding: 3px;
     margin-top: 1rem;
+}
+
+.flexboks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.programmering-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.flex-3d {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
 }
